@@ -127,7 +127,7 @@
             <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.scope">all</stringProp>
+            <stringProp name="Assertion.scope">children</stringProp>
           </ResponseAssertion>
           <hashTree/>
           <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion Minimum" enabled="true">
@@ -469,7 +469,7 @@
             <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.scope">all</stringProp>
+            <stringProp name="Assertion.scope">children</stringProp>
           </ResponseAssertion>
           <hashTree/>
           <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion Minimum" enabled="true">
@@ -811,7 +811,7 @@
             <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.scope">all</stringProp>
+            <stringProp name="Assertion.scope">children</stringProp>
           </ResponseAssertion>
           <hashTree/>
           <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion Minimum" enabled="true">
@@ -1153,7 +1153,7 @@
             <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.scope">all</stringProp>
+            <stringProp name="Assertion.scope">children</stringProp>
           </ResponseAssertion>
           <hashTree/>
           <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion Minimum" enabled="true">
@@ -1495,7 +1495,7 @@
             <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.scope">all</stringProp>
+            <stringProp name="Assertion.scope">children</stringProp>
           </ResponseAssertion>
           <hashTree/>
           <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion Minimum" enabled="true">

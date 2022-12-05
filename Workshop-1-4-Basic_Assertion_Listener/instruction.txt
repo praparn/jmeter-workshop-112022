@@ -5,8 +5,8 @@ Part 1 : Start Performance Test (Load Test Machine)
     vncserver -localhost no -geometry 1600x900 :1
 
 1. Recreate file: Result.csv
-   rm ~/jmeter-workshop-092021/Result.csv
-   touch ~/jmeter-workshop-092021/Result.csv
+   rm ~/jmeter-workshop-112022/Result.csv
+   touch ~/jmeter-workshop-112022/Result.csv
 
 ============================================================================================
 Part 2: Start Performance Test Scenario 2 (Add Listener)
@@ -33,7 +33,7 @@ Part 2: Start Performance Test Scenario 2 (Add Listener)
     
     3.2 Listener: Simple Data Writer:
         3.2.1 Name: Export Result to File
-        3.2.2 Filename: ~/jmeter-workshop-062019/Result.csv <Browse>
+        3.2.2 Filename: ~/jmeter-workshop-112022/Result.csv <Browse>
         3.2.3 Log/Display Only:
             3.2.3.1 [ ] Errors
             3.2.3.2 [x] Successes
@@ -101,7 +101,7 @@ Part 3: Start Performance Test Scenario 3 (Add Assertion/More Listener)
     4.2 View The real time test on result Tree
     4.3 Check overall capacity on CADVISOR
     4.4 Wait until test was finished
-    4.5 Check file output from ~/jmeter-workshop-092021/Result.csv <browse>
-    *Remark: If ~/jmeter-workshop-092021/Result.csv is not appear. 
-        - touch ~/jmeter-workshop-092021/Result.csv
+    4.5 Check file output from ~/jmeter-workshop-112022 /Result.csv <browse>
+    *Remark: If ~/jmeter-workshop-112022/Result.csv is not appear. 
+        - touch ~/jmeter-workshop-112022/Result.csv
         - Rerun JMeter with Overwrite Existing Function
