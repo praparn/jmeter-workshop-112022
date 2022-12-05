@@ -14,7 +14,7 @@ do
 	docker run --name $IPADDR \
 	-dit --net jmeternet --ip $IPADDR \
   --mount type=bind,source=${result_path},target=${jmeter_resultpath} \
-	--rm labdocker/jmeter:lab -n -s \
+	--rm labdocker/jmeter:lab202211 -n -s \
 	-Jclient.rmi.localport=7000 -Jserver.rmi.localport=60000 -Jserver.rmi.ssl.disable=true \
 	-j ${jmeter_resultpath}/server/slave_${timestamp}_${IPADDR}.log 
 done
@@ -25,7 +25,7 @@ docker run --name $CLIENT_IP \
   --mount type=bind,source=${result_path},target=${jmeter_resultpath} \
   --mount type=bind,source=${script_path},target=${jmeter_scriptpath} \
   -v "${volume_path}":${jmeter_path} \
-  --rm labdocker/jmeter:lab -n -X \
+  --rm labdocker/jmeter:lab202211 -n -X \
   -Jclient.rmi.localport=7000 -Jserver.rmi.ssl.disable=true \
   -R $(echo $(printf ",%s" "${SERVER_IPS[@]}") | cut -c 2-) \
   -t ${jmeter_scriptpath}/Template_Workshop_2_5_FirstPage.jmx \
