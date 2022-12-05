@@ -35,17 +35,17 @@ Part 2: Check and Install Plugin via Plugin Manager
 6. (Load Test Machine) Add some listener under thread group. We will find new pluging there
     "jp@gc - Hits per Second" ,"jp@gc - Response Latencies Over Time", "jp@gc - Response Times Over Time", "jp@gc - Response Codes per Second", "jp@gc - Active Threads Over Time"
 
-7. (Load Test Machine) Save TestPlan and Start test performance by command:
+7. (Load Test Machine) Save TestPlan
 
 ============================================================================================
 Part 3: Install plugin via command line
 ============================================================================================
 1. Install uzip and Download plugin and unzip Example (Custom Thread Groups)
     cd ~
-    curl https://jmeter-plugins.org/files/packages/jpgc-casutg-2.8.zip > ~/jpgc-casutg-2.8.zip
+    curl https://jmeter-plugins.org/files/packages/jpgc-casutg-2.10.zip> ~/jpgc-casutg-2.10.zip
     sudo apt-get install -y unzip
-    unzip jpgc-casutg-2.8.zip -d jpgc-casutg-2.8
-    cp ~/jpgc-casutg-2.8/lib/ext/jmeter-plugins-casutg-2.8.jar ~/apache-jmeter-5.4.1/lib/ext/
+    unzip jpgc-casutg-2.10.zip -d jpgc-casutg-2.10
+    cp ~/jpgc-casutg-2.10/lib/ext/jmeter-plugins-casutg-2.10.jar ~/apache-jmeter-5.5/lib/ext/
 
 2. Restart JMeter and Open "KickStart_WorkShop_2_4_FirstPage.jmx" 
 
