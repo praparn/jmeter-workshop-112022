@@ -2,7 +2,7 @@
 Part 1: Instll Plugin Manager / Open JMeter 
 ============================================================================================
 1. (Load Test Machine) Download JAR file command: 
-    curl https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar > ~/apache-jmeter-5.4.1/lib/ext/jmeter-plugins-manager-1.6.jar
+    curl https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.8/jmeter-plugins-manager-1.8.jar > ~/apache-jmeter-5.5/lib/ext/jmeter-plugins-manager-1.8.jar
 
 2. (Load Test Machine) In case UltraVNC is cannot connect. Kill and recreate vnc session by command:
     vncserver -kill :1
@@ -10,7 +10,7 @@ Part 1: Instll Plugin Manager / Open JMeter
 
 3. (Load Test Machine) Open Jmeter GUI (If disapper. Please run
     cd ~
-    ./apacher-jemeter-5.4.1/bin/jmeter
+    ./apache-jmeter-5.5/bin/jmeter
 
 ============================================================================================
 Part 2: Check and Install Plugin via Plugin Manager
